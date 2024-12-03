@@ -9,6 +9,13 @@ export const style = css`
     font-size: 0.875rem;
   }
 
+  [data-cke-tooltip-text="Bookmark"], .ck-bookmark {
+    background-image: url('/icons/general/bookmark.svg');
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   .ck-editor__main {
     --ck-font-face: "Source Sans Pro", system-ui, Roboto, "Helvetica Neue", "Helvetica", Arial, sans-serif;
     color: var(--ck-color-editor-base-text);
