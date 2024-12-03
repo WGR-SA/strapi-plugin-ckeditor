@@ -10,10 +10,10 @@ export const style = css`
   }
 
   [data-cke-tooltip-text="Bookmark"], .ck-bookmark {
-    background-image: url('/icons/general/bookmark.svg');
-    background-size: 80%;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url('/icons/general/bookmark.svg') !important;
+    background-size: 80% !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
   }
 
   .ck-editor__main {
